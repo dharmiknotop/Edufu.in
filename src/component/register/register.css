@@ -1,0 +1,64 @@
+.register {
+  background-color: #064c91;
+}
+.registertxt {
+  color: white;
+}
+.registertxt > div > p {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 38px;
+}
+.inputEmail > input {
+  padding: 0.5rem 0.5rem 0.5rem 3rem;
+  display: block;
+  outline: 0;
+  width: 100%;
+}
+.inputEmail > svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: gray;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputEmail > button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  padding: 0.6rem;
+  margin-top: 1px;
+}
+.inputEmail {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registertxt > div > span {
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+@media only screen and (max-width: 650px) {
+  .registertxt > div > p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .registertxt > div > span {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .mobMargin {
+    margin-top: 1rem;
+  }
+}

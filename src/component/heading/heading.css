@@ -1,0 +1,10 @@
+.heading {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.heading > button {
+  border-radius: 30px;
+  font-weight: 600;
+}

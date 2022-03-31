@@ -1,0 +1,13 @@
+.FooterTitle {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.FooterSubTitle {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+.FooterText {
+  font-size: 0.8rem;
+}
