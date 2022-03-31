@@ -6,7 +6,7 @@ const Register = () => {
     <div className="register my-5 py-5">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-12 col-sm-12 col-6 registertxt d-flex  flex-column justify-content-center">
+          <div className="col-lg-6 col-md-12 col-sm-12 col-12 registertxt d-flex  flex-column justify-content-center">
             {' '}
             <div className="container">
               <p>REGISTER FOR FREE NEWSLETTER !</p>
@@ -16,7 +16,7 @@ const Register = () => {
               </span>
             </div>
           </div>
-          <div className="col-lg-6 col-md-12 col-sm-12 col-6 d-flex  flex-column justify-content-center mobMargin">
+          <div className="col-lg-6 col-md-12 col-sm-12 col-12 d-flex  flex-column justify-content-center mobMargin">
             <div className="inputEmail d-flex align-items-center">
               <MdOutlineEmail className="ms-3" />
               <button className="btn btn-primary btn-sm ">

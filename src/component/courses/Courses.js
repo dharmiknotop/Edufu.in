@@ -11,7 +11,7 @@ const Courses = () => {
   return (
     <div className="container my-5">
       <div className="row">
-        <div className="col-lg-3 col-md-3 col-sm-12 col-6">
+        <div className="col-lg-3 col-md-3 col-sm-12 col-12">
           <div className="card">
             <div className="d-flex align-items-center pt-4 pb-2 ">
               <div className="featuredOptions d-flex align-items-end">
@@ -31,7 +31,7 @@ const Courses = () => {
             <FeaturedItem />
           </div>
         </div>
-        <div className="col-lg-9 col-md-9 col-sm-12 col-6">
+        <div className="col-lg-9 col-md-9 col-sm-12 col-12">
           <div className="card">
             <div className="container">
               <div className="CoursesTitle"> Courses / Degree</div>

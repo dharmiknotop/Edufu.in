@@ -2,13 +2,13 @@ import React from 'react'
 import mask from './Mask.png'
 const blog = () => {
   return (
-    <div className="col-6 col-md-12 col-sm-12 col-lg-6 my-2">
+    <div className="col-12 col-md-12 col-sm-12 col-lg-6 my-2">
       <div className="row">
         <div className="col-6">
           <img className="w-100 h-100" src={mask} alt="" />
         </div>
         <div className="col-6 d-flex flex-column justify-content-between">
-          <span className="VirtualTitle">
+          <span className="VirtualTitle blogtxt">
             {' '}
             There Will Never be a Creator Middle Class and Why ...
           </span>

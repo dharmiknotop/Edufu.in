@@ -50,8 +50,8 @@ function App() {
       <Register />
       <Footer />
       <div className="Footer d-flex justify-content-between">
-        <span className="text-muted p-2 ms-5">Terms & Conditions</span>
-        <span className="text-muted p-2 me-5">
+        <span className="text-muted p-2">Terms & Conditions</span>
+        <span className="text-muted p-2">
           ©2018 - Edufu technologies Pvt. Ltd. | All right reserved
         </span>
       </div>

@@ -29,31 +29,31 @@ const Footer = () => {
           {' '}
           <div className="FooterTitle text-muted">Services</div>
           <div className="d-flex flex-column text-muted">
-            <span className="FooterSubTitle my-1">Stundents</span>
-            <span className="FooterSubTitle my-1 ">Institue</span>
-            <span className="FooterSubTitle my-1">Company</span>
+            <span className="Footertext my-1">Stundents</span>
+            <span className="Footertext my-1 ">Institue</span>
+            <span className="Footertext my-1">Company</span>
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-6 col-6 ">
           {' '}
           <div className="FooterTitle text-muted">DOCUMENTATION</div>
           <div className="d-flex flex-column text-muted">
-            <span className="FooterSubTitle my-1">Term & condition</span>
-            <span className="FooterSubTitle my-1">Privacy Policy</span>
-            <span className="FooterSubTitle my-1">Disclaimer</span>
-            <span className="FooterSubTitle my-1">Refund policy</span>
+            <span className="Footertext my-1">Term & condition</span>
+            <span className="Footertext my-1">Privacy Policy</span>
+            <span className="Footertext my-1">Disclaimer</span>
+            <span className="Footertext my-1">Refund policy</span>
           </div>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-6 col-6 ">
           {' '}
           <div className="FooterTitle text-muted">CONTACT US</div>
           <div className="d-flex flex-column text-muted">
-            <span className="FooterSubTitle my-1">
+            <span className="Footertext my-1">
               Edufu Technologies Pvt. Ltd.
             </span>
-            <span className="FooterSubTitle my-1">www.Edufu.in</span>
-            <span className="FooterSubTitle my-1">Admin@Edufu.in</span>
-            <span className="FooterSubTitle my-1">
+            <span className="Footertext my-1">www.Edufu.in</span>
+            <span className="Footertext my-1">Admin@Edufu.in</span>
+            <span className="Footertext my-1">
               25, 1st main road, KB nagar, Bengaluru, karnataka 560026
             </span>
           </div>

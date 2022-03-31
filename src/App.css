@@ -5,6 +5,9 @@ html,
 body {
   height: 100%;
 }
+.app {
+  width: 10px !important;
+}
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +23,20 @@ body {
 @media only screen and (max-width: 800px) {
   .mobile {
     display: none !important;
+  }
+  .card {
+    width: 90%;
+  }
+  .blogtxt {
+    font-size: 0.8rem !important;
+  }
+
+  .CreateEconomy {
+    padding: 0 !important;
+    text-align: center;
+  }
+  .heading > button {
+    font-size: 0.8rem;
   }
   .card > div:nth-child(1) > p > span:nth-child(1) {
     font-size: 0.6rem !important;
@@ -38,5 +55,21 @@ body {
   }
   .card > div:nth-child(1) > p > span:nth-child(1) {
     font-size: 0.8rem;
+  }
+  .FooterTitle > img {
+    width: 100%;
+  }
+  .inputEmail > input {
+    font-size: 0.5rem !important;
+    width: 90% !important;
+  }
+  .inputEmail > button {
+    padding: 0.25rem !important;
+    font-size: 0.7em !important;
+    right: 20px !important;
+    top: 2px !important;
+  }
+  .inputEmail > svg {
+    left: 10px !important;
   }
 }
