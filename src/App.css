@@ -17,14 +17,26 @@ body {
 .card {
   border-radius: 1rem;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
   .mobile {
     display: none !important;
+  }
+  .card > div:nth-child(1) > p > span:nth-child(1) {
+    font-size: 0.6rem !important;
+  }
+  .card > div:nth-child(1) > p > span {
+    font-size: 0.5rem !important;
+  }
+  .registertxt > div > p {
+    font-size: 1.5rem !important;
   }
   .HomeText {
     text-align: center;
   }
   .headingTxt {
     font-size: 1.3rem;
+  }
+  .card > div:nth-child(1) > p > span:nth-child(1) {
+    font-size: 0.8rem;
   }
 }

@@ -4,7 +4,7 @@ const PopularCourses = ({ Name }) => {
   return (
     <div className="col-lg-4 my-2 position-relative ">
       {' '}
-      <span class="list-group-item p-3 pt-2 ">
+      <span className="list-group-item p-3 pt-2 ">
         <span className="VirtualTitle">{Name}</span>
         <div className="subtitle text-muted">3 courses offered</div>
         <div className="subtitle my-1">

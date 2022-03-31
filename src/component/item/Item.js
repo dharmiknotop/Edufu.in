@@ -6,6 +6,7 @@ import { HiDownload } from 'react-icons/hi'
 import { AiOutlineHeart } from 'react-icons/ai'
 import { ImLocation } from 'react-icons/im'
 import { AiFillStar } from 'react-icons/ai'
+import { IoLogoYoutube } from 'react-icons/io'
 const Item = () => {
   return (
     <div className="col-lg-3 col-md-6 col-sm-6 col-12 ">
@@ -17,14 +18,15 @@ const Item = () => {
             <span className="me-1">4.0 </span>
             <AiFillStar />
           </div>
-          <div className="">
+          <div className="position-relative">
             <img src={Firstimage} className="card-img-top" />
+            <IoLogoYoutube className="Youtube" size={20} color="red" />
             <div className="overlay"></div>
           </div>
           <p>
             <span className="pe-1">Maharishi Dayanand Univers...</span>
             <span className="d-flex align-items-center mt-1">
-              <ImLocation size={10} />
+              <ImLocation className="mx-1" size={10} />
               Delhi Bypass, Rohtak, Haryana
             </span>
           </p>
